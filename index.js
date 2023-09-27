@@ -24,7 +24,8 @@ const userSchema = new mongoose.Schema({
     password:String
 })
 
-const User = mongoose.model("user",userSchema)
+const User = mongoose.model("user",userSchema);
+//messIT
 
 
 
